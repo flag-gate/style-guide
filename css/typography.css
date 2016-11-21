@@ -1,0 +1,9 @@
+html{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.695vh;
+  letter-spacing: 0.0025em;
+}
+
+body > header h1 {
+  font-size: 2em;
+}

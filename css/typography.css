@@ -4,6 +4,6 @@ html{
   letter-spacing: 0.0025em;
 }
 
-body > header h1 {
+h1 {
   font-size: 2em;
 }

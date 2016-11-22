@@ -24,6 +24,11 @@ body > header,
   background-color: #000;
   color: #fff;
 }
+
+.error{
+  color: #df4242;
+}
+
 a{
   color: inherit;
 }

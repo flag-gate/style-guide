@@ -1,0 +1,24 @@
+body > header{
+  display: flex;
+  justify-content: space-between;
+  height: 4em;
+}
+
+body > header > * {
+  padding: 1em;
+}
+body > header > .logo{
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  min-height: 2em;
+  min-width: 10em;
+  text-align: center;
+}
+body > header > .logo > *{
+  display: block;
+  font-size: 2em;
+  font-weight: lighter;
+}
+body > header .user-detail{
+  text-align: right;
+}

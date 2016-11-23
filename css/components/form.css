@@ -15,6 +15,7 @@ footer button{
   vertical-align: middle;
 }
 
+select,
 input[type="text"],
 input[type="email"],
 input[type="password"] {
@@ -26,6 +27,12 @@ input[type="password"] {
   font-size: 1em;
   padding: 0.5em;
   height: 3em;
+}
+
+select{
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 div.form-row{

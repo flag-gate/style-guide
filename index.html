@@ -1,1 +1,110 @@
-<!DOCTYPE html><html lang="en"><head>    <meta charset="UTF-8">    <title>Gate - Suit</title>    <link href="css/typography.css" rel="stylesheet">    <link href="css/palette.css" rel="stylesheet">    <link href="css/grid.css" rel="stylesheet">    <link href="css/components/header.css" rel="stylesheet"></head><body>  <header>    <div class="logo">      <a href="/">        <img src="product_logo.svg" alt="Product Name">      </a>    </div>    <div>      <div class="user-detail">        <div class="user-name">User Name</div>        <div><a href="/logout/">Logout</a></div>      </div>    </div>  </header></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gate - Suit</title>
+    <link href="css/typography.css" rel="stylesheet">
+    <link href="css/palette.css" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/components/header.css" rel="stylesheet">
+    <link href="css/components/box.css" rel="stylesheet">
+    <style type="text/css">
+      .box footer .button,
+      .box footer input[type=submit],
+      .box footer button{
+        border-radius: 3px;
+        border: none;
+        box-sizing: content-box;
+        cursor: pointer;
+        display: inline-block;
+        font-family: inherit;
+        font-size: 1em;
+        font-weight: bold;
+        height: 1em;
+        line-height: 1;
+        padding: 0.5em;
+        vertical-align: middle;
+      }
+    </style>
+    <style type="text/css">
+      table{
+        width: 100%;
+        border-collapse: collapse;
+      }
+      tr{
+        border-bottom: 1px solid #e9e9e9;
+      }
+      tr:last-child{
+        border-style: none;
+      }
+      td:first-child{
+        padding-left: 2em;
+      }
+      td:last-child{
+        padding-right: 2em;
+        text-align: right;
+      }
+      td{
+        padding: 1em;
+      }
+    </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="/">
+        <img src="product_logo.svg" alt="Product Name">
+      </a>
+    </div>
+    <div>
+      <div class="user-detail">
+        <div class="user-name">User Name</div>
+        <div><a href="/logout/">Logout</a></div>
+      </div>
+    </div>
+  </header>
+
+  <section class="box">
+  <form action="" method="post">
+    <header>
+      <h1>Gate Suit</h1>
+      <p>The Gate style guide </p>
+    </header>
+    <div class="content">
+      <table>
+        <tbody>
+          <tr>
+            <td>CCV - Principal (BR)</td>
+            <td><a href="">Delete</a></td>
+          </tr>
+          <tr>
+            <td>CCV - Principal (BR)</td>
+            <td><a href="">Delete</a></td>
+          </tr>
+          <tr>
+            <td>CCV - Principal (BR)</td>
+            <td><a href="">Delete</a></td>
+          </tr>
+          <tr>
+            <td>CCV - Principal (BR)</td>
+            <td><a href="">Delete</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="error message">
+      Error!
+    </div>
+    <footer>
+      <div><a href="">Back</a></div>
+      <div>
+        <a class="button" href="#">Link like button</a>
+        <input type="submit" class="submit" value="Just do it!" name="">
+      </div>
+    </footer>
+    </form>
+  </section>
+</body>
+</html>
+
+

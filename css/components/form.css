@@ -15,6 +15,7 @@ footer button{
   vertical-align: middle;
 }
 
+div.fake-input,
 select,
 input[type="text"],
 input[type="email"],
@@ -40,3 +41,14 @@ div.form-row{
   align-items: baseline;
 }
 
+div.fake-input label{
+  flex-grow: 0;
+  opacity: 0.5;
+}
+
+div.fake-input input{
+  border: none;
+  height: 100%;
+  padding-bottom: 0;
+  padding-top: 0;
+}

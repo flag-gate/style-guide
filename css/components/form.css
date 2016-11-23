@@ -14,3 +14,22 @@ footer button{
   padding: 0.5em;
   vertical-align: middle;
 }
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  display: inline-block;
+  box-sizing: border-box;
+  border: 1px solid #d4d4d4;
+  border-radius: 3px;
+  flex-grow: 1;
+  font-size: 1em;
+  padding: 0.5em;
+  height: 3em;
+}
+
+div.form-row{
+  display: flex;
+  align-items: baseline;
+}
+

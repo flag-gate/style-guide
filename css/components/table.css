@@ -1,0 +1,24 @@
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: 1px solid #e9e9e9;
+  box-sizing: border-box;
+  height: 4em;
+  padding: .5em;
+}
+
+tr > :first-child{
+  padding-left: 2em;
+}
+
+tr > :last-child{
+  padding-right: 2em;
+  text-align: right;
+}
+
+th{
+  text-align: left;
+}

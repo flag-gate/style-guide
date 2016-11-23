@@ -1,0 +1,16 @@
+footer .button,
+footer input[type=submit],
+footer button{
+  border-radius: 3px;
+  border: none;
+  box-sizing: content-box;
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  font-size: 1em;
+  font-weight: bold;
+  height: 1em;
+  line-height: 1;
+  padding: 0.5em;
+  vertical-align: middle;
+}

@@ -2,11 +2,13 @@ body > header{
   display: flex;
   justify-content: space-between;
   height: 4em;
+  line-height: 1;
 }
 
 body > header > * {
   padding: 1em;
 }
+
 body > header > .logo{
   border-bottom-width: 1px;
   border-bottom-style: solid;
@@ -14,11 +16,13 @@ body > header > .logo{
   min-width: 10em;
   text-align: center;
 }
+
 body > header > .logo > *{
   display: block;
   font-size: 2em;
   font-weight: lighter;
 }
+
 body > header .user-detail{
   text-align: right;
 }

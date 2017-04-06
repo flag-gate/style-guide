@@ -18,12 +18,22 @@
   padding-bottom: 2em;
 }
 
+.box header > *{
+  display: block;
+  margin: auto;
+}
+
 .box header{
   text-align: center;
 }
 
+.box header img{
+  margin-top: 1em;
+  height: 4em;
+}
+
 .box .content{
-  min-height: 12em;
+  min-height: 5em;
 }
 
 .box .content + footer{
@@ -48,4 +58,8 @@
   .box{
     margin: 8em auto 2em;
   }
+  .box .content{
+    min-height: 12em;
+  }
 }
+

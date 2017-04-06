@@ -1,6 +1,6 @@
 html{
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.695vh;
+  font-size: 15px;
   letter-spacing: 0.0025em;
 }
 
@@ -12,3 +12,10 @@ a{
   font-weight: bold;
   text-decoration: none;
 }
+
+@media (min-width: 640px) {
+  html{
+    font-size: 1.695vh;
+  }
+}
+

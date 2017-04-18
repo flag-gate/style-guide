@@ -1,5 +1,7 @@
 table{
   width: 100%;
+  width: calc(100% + 2em);
+  margin: 0 -1em;
   border-collapse: collapse;
 }
 
@@ -8,15 +10,6 @@ tr {
   box-sizing: border-box;
   height: 4em;
   padding: .5em;
-}
-
-tr > :first-child{
-  padding-left: 2em;
-}
-
-tr > :last-child{
-  padding-right: 2em;
-  text-align: right;
 }
 
 th{

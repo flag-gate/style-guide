@@ -13,16 +13,25 @@ body > header > .logo{
   border-bottom-width: 1px;
   border-bottom-style: solid;
   min-height: 2em;
-  min-width: 10em;
-  text-align: center;
+  max-width: 14em;
+  width: 2em;
 }
 
 body > header > .logo > *{
   display: block;
   font-size: 2em;
   font-weight: lighter;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 body > header .user-detail{
   text-align: right;
+}
+
+@media (min-width: 640px) {
+  body > header > .logo{
+    width: auto;
+  }
 }

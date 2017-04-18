@@ -8,8 +8,7 @@
 .box header,
 .box .message,
 .box footer{
-  padding-left: 2em;
-  padding-right: 2em;
+  padding: 1em;
 }
 
 .box header,
@@ -41,9 +40,9 @@
 }
 
 .box .message{
-  align-items: center;
-  display: flex;
   min-height: 4em;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 .box footer{
@@ -60,6 +59,18 @@
   }
   .box .content{
     min-height: 12em;
+  }
+
+  .box header,
+  .box .message,
+  .box footer{
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  .box footer{
+    padding-top: 2em;
+    padding-bottom: 2em;
   }
 }
 

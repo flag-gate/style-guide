@@ -60,16 +60,7 @@
     min-height: 12em;
   }
 
-  .box header,
-  .box .message,
   .box footer{
-    padding-left: 2em;
-    padding-right: 2em;
-  }
-
-  .box footer{
-    padding-top: 2em;
-    padding-bottom: 2em;
     border-radius: 0 0 3px 3px;
   }
 }

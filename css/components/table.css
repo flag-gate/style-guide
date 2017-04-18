@@ -12,15 +12,6 @@ tr {
   padding: .5em;
 }
 
-tr > :first-child{
-  padding-left: 2em;
-}
-
-tr > :last-child{
-  padding-right: 2em;
-  text-align: right;
-}
-
 th{
   text-align: left;
 }

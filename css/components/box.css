@@ -47,7 +47,6 @@
 
 .box footer{
   align-items: center;
-  border-radius: 0 0 3px 3px;
   display: flex;
   justify-content: space-between;
   min-height: 2em;
@@ -71,6 +70,7 @@
   .box footer{
     padding-top: 2em;
     padding-bottom: 2em;
+    border-radius: 0 0 3px 3px;
   }
 }
 

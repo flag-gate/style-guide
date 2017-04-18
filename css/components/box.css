@@ -43,7 +43,6 @@
 .box .message{
   min-height: 4em;
   box-sizing: border-box;
-  text-align: center;
 }
 
 .box footer{

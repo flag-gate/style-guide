@@ -18,3 +18,7 @@ p:last-child{
 p{
   margin: 0 0 1em;
 }
+
+.box .content > p{
+  text-align: center;
+}

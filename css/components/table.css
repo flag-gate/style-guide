@@ -21,9 +21,23 @@ tr > :last-child{
   text-align: right;
 }
 
+table tr > :only-child{
+  text-align: left;
+}
+
+table tr > :only-child a{
+  display: block;
+  margin: -1em;
+}
+
 @media (min-width: 800px) {
   table{
     width: calc(100% + 4em);
     margin: 0 -2em;
+  }
+
+  table tr > :last-child a{
+    margin-left: -2em;
+    margin-right: -2em;
   }
 }

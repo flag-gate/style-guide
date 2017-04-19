@@ -10,3 +10,56 @@ h1{
 h1, p{
   line-height: 1;
 }
+
+p:last-child{
+  margin-bottom: 0;
+}
+
+p{
+  margin: 0 0 1em;
+}
+
+.box .content > p{
+  text-align: center;
+}
+
+tr > :first-child{
+  padding-left: 1em;
+}
+
+tr > :last-child{
+  padding-right: 1em;
+}
+
+table tr > :last-child a,
+.box header,
+.box .message,
+.box .content,
+.box footer{
+  padding: 1em;
+}
+
+@media (min-width: 800px) {
+  .box header,
+  .box .message,
+  .box .content,
+  .box footer,
+  table tr > :last-child a,
+  tr > :first-child{
+    padding-left: 2em;
+  }
+
+  .box header,
+  .box .message,
+  .box .content,
+  .box footer,
+  table tr > :last-child a,
+  tr > :last-child{
+    padding-right: 2em;
+  }
+
+  .box footer{
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+}

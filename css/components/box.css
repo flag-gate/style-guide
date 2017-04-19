@@ -1,29 +1,31 @@
 .box{
-  margin: 8em auto 2em;
-  min-height: 29em;
+  margin: 0 auto;
+  min-height: 28em;
   max-width: 64em;
   border-radius: 3px;
 }
 
-.box header,
-.box .message,
-.box footer{
-  padding-left: 2em;
-  padding-right: 2em;
-}
-
-.box header,
-.box footer{
+.box header{
   padding-top: 2em;
   padding-bottom: 2em;
+}
+
+.box header > *{
+  display: block;
+  margin: auto;
 }
 
 .box header{
   text-align: center;
 }
 
+.box header img{
+  margin: 1em auto;
+  height: 4em;
+}
+
 .box .content{
-  min-height: 12em;
+  min-height: 5em;
 }
 
 .box .content + footer{
@@ -31,15 +33,27 @@
 }
 
 .box .message{
-  align-items: center;
-  display: flex;
   min-height: 4em;
+  box-sizing: border-box;
 }
 
 .box footer{
   align-items: center;
-  border-radius: 0 0 3px 3px;
   display: flex;
   justify-content: space-between;
   min-height: 2em;
 }
+
+@media (min-width: 800px) {
+  .box{
+    margin: 8em auto 2em;
+  }
+  .box .content{
+    min-height: 12em;
+  }
+
+  .box footer{
+    border-radius: 0 0 3px 3px;
+  }
+}
+

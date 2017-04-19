@@ -31,10 +31,7 @@ tr > :last-child{
   padding-right: 1em;
 }
 
-tr > :last-child{
-  text-align: right;
-}
-
+table tr > :last-child a,
 .box header,
 .box .message,
 .box .content,
@@ -47,6 +44,7 @@ tr > :last-child{
   .box .message,
   .box .content,
   .box footer,
+  table tr > :last-child a,
   tr > :first-child{
     padding-left: 2em;
   }
@@ -55,6 +53,7 @@ tr > :last-child{
   .box .message,
   .box .content,
   .box footer,
+  table tr > :last-child a,
   tr > :last-child{
     padding-right: 2em;
   }

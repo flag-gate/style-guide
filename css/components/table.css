@@ -5,20 +5,39 @@ table{
   border-collapse: collapse;
 }
 
-tr {
+tr > *{
+  padding: 1em 0.5em;
   border-bottom: 1px solid #e9e9e9;
-  box-sizing: border-box;
-  height: 4em;
-  padding: .5em;
+  padding-bottom: calc(1em - 1px); /* compensate border */
+  vertical-align: baseline;
+  line-height: 1;
 }
 
 th{
   text-align: left;
 }
 
+tr > :last-child{
+  text-align: right;
+}
+
+table tr > :only-child{
+  text-align: left;
+}
+
+table tr > :only-child a{
+  display: block;
+  margin: -1em;
+}
+
 @media (min-width: 800px) {
   table{
     width: calc(100% + 4em);
     margin: 0 -2em;
+  }
+
+  table tr > :last-child a{
+    margin-left: -2em;
+    margin-right: -2em;
   }
 }

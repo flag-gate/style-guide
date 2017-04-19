@@ -31,10 +31,6 @@ tr > :last-child{
   padding-right: 1em;
 }
 
-tr > :last-child{
-  text-align: right;
-}
-
 .box header,
 .box .message,
 .box .content,

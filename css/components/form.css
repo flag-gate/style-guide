@@ -43,6 +43,11 @@ select{
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
+  padding-right: 3em;
+  background-image: url('/img/dropdown.svg');
+  background-repeat: no-repeat;
+  background-position: calc(100% - 1em) 1em;
+  background-size: 1em;
 }
 
 div.form-row{

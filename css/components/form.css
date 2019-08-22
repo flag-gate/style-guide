@@ -1,10 +1,19 @@
-footer .button,
-footer input[type=submit],
-footer button{
+label,
+select,
+input[type="checkbox"],
+input[type="radio"],
+input[type="submit"],
+.button,
+button{
+  cursor: pointer;
+}
+
+.button,
+input[type="submit"],
+button{
   border-radius: 3px;
   border: none;
   box-sizing: content-box;
-  cursor: pointer;
   display: inline-block;
   font-family: inherit;
   font-size: 1em;

@@ -10,6 +10,13 @@ body > header > .logo,
   color: #000;
 }
 
+.box .button,
+.box input[type=submit],
+.box button{
+  background-color: #000;
+  color: #fff;
+}
+
 body > header > .logo{
   border-color: #EBF0F6;
 }
